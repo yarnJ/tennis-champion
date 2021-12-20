@@ -1,0 +1,40 @@
+.player-title {
+  margin: 0;
+  font-size: 1.8rem;
+  color: rgb(37, 37, 37);
+}
+
+.player-point {
+  color: #191919;
+  padding: 15px 0 15px 0;
+  font-size: 6.5rem;
+}
+
+.player-wrapper {
+  font-family: "Lobster Two", cursive;
+  width: 300px;
+}
+
+.player-button {
+  font-family: "Lobster Two", cursive;
+  padding: 16px 37px;
+  background: #3a6bff;
+  border: 0;
+  color: white;
+  border-radius: 50px;
+  box-shadow: 0 1px 4px #00000047;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.player-button:hover {
+  background-color: #2257ef;
+}
+
+.player-button:focus {
+  outline: none;
+}
+
+.player-button:active {
+  background-color: #2352d3;
+}

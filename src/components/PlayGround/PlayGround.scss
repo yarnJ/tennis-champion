@@ -1,0 +1,54 @@
+.play-ground {
+  display: flex;
+}
+
+.play-again-button {
+  font-family: "Lobster Two", cursive;
+  padding: 13px 30px;
+  color: #4265ff;
+  background: transparent;
+  border: 2px solid #4265ff;
+  border-radius: 50px;
+  box-shadow: 0 1px 4px #00000047;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.play-again-button:hover {
+  background-color: #4265ff;
+  color: white;
+}
+
+.play-again-button:active {
+  background-color: #3555e7;
+  color: white;
+}
+
+.play-again-button:focus {
+  outline: none;
+}
+
+.winner-message {
+  font-family: "Lobster Two", cursive;
+  font-size: 3.4rem;
+  color: black;
+
+  animation: winner-message-animation ease-in 500ms infinite;
+}
+
+@keyframes winner-message-animation {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
